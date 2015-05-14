@@ -2,54 +2,57 @@
 using System.Collections;
 
 public class Enemy : MonoBehaviour {
-    public MoveController moveController;
-    public Transform player, combatPosition;
-    public Camera combatCamera;
-    public Canvas menu, talk;
+    private NavMeshAgent agent;
+
+    public Transform player;
     public int life;
-    public bool characterInArea;
+    public GameObject[] PatrolPoints;
+    public float patrolTime;
+    public bool playerInArea;
+    private int randomPoint, oldPoint;
+	// Use this for initialization
+
+
 	// Use this for initialization
 	void Start () {
-        
+        agent = gameObject.GetComponent<NavMeshAgent>();
+        Patrol();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        //transform.LookAt(player);
+	
 	}
 
-  /*  void OnMouseDown()
+    void Patrol()
     {
-        if (characterInArea)
+        oldPoint = randomPoint;
+        randomPoint = Random.Range(0, PatrolPoints.Length);
+        if (oldPoint != randomPoint)
         {
-            OpenMenu();
+            agent.SetDestination(PatrolPoints[randomPoint].transform.position);
         }
         else
         {
-            Debug.Log("entrou");
-            moveController.MoveFunction();
-            moveController.goPosition = combatPosition.transform.position;
-            moveController.ableMove = false;
+            Patrol();
         }
     }
 
-    void OpenMenu()
+    void OnTriggerEnter(Collider other)
     {
-        if (Camera.main.enabled)
+        if (other.transform.tag == "EnemyPoint" && !playerInArea)
         {
-            Camera.main.enabled = false;
+            Invoke("Patrol", patrolTime);
         }
-        menu.enabled = true;
-        moveController.canMove = false;
-        player.transform.position = combatPosition.transform.position;
-        player.transform.rotation = combatPosition.transform.rotation;
+        if (other.transform.tag == "Player")
+        {
+            playerInArea = true;
+            PursuePlayer();
+        }
     }
 
-    public void Talk()
+    void PursuePlayer()
     {
-        talk.enabled = true;
-        menu.enabled = false;
-        Invoke("OpenMenu", 2);
-    }*/
-
+        agent.SetDestination(player.transform.position);
+    } 
 }

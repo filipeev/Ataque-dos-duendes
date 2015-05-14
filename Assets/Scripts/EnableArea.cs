@@ -12,7 +12,7 @@ public class EnableArea : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            enemy.characterInArea = true;
+         //   enemy.characterInArea = true;
         }
     }
 
@@ -20,7 +20,7 @@ public class EnableArea : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            enemy.characterInArea = false;
+         //   enemy.characterInArea = false;
         }
     }
 }
