@@ -137,8 +137,6 @@ public class Dialogos : MonoBehaviour {
 		scriptInventario.arma = 2;
 		dialogoKo = true;
 	}
-
-
 	public void compraArma1(){
 		if (scriptInventario.arma == 1) {
 			textoDialogo.GetComponent<Text>().text = "Voce ja possui esta arma!";
@@ -160,7 +158,6 @@ public class Dialogos : MonoBehaviour {
 			textoDialogo.GetComponent<Text>().text = "Voce nao tem dinehiro suficiente para esta arma, deseja algo mais?";
 		}
 	}
-
     public void compraCerveja()
     {
         if (scriptInventario.money >= 5)

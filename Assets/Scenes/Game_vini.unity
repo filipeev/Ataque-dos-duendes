@@ -2675,6 +2675,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 654997205}
+  persuers: 0
+  EnemyType: 
   Arrow: {fileID: 457036, guid: 4de86bbc3a86bba4ea35b82c784fb218, type: 2}
   cameraPrincipal: {fileID: 646768081}
 --- !u!4 &1559636580

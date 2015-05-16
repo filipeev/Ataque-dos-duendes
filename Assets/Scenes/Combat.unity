@@ -1,0 +1,2088 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 6
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: .211999997, g: .226999998, b: .259000003, a: 1}
+  m_AmbientEquatorColor: {r: .114, g: .125, b: .133000001, a: 1}
+  m_AmbientGroundColor: {r: .0469999984, g: .0430000015, b: .0350000001, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_GIWorkflowMode: 0
+  m_LightmapsMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 3
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AOMaxDistance: 1
+    m_Padding: 2
+    m_CompAOExponent: 0
+    m_LightmapParameters: {fileID: 0}
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherRayCount: 1024
+  m_LightmapSnapshot: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: .166666672
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &84239282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100050, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 84239283}
+  m_Layer: 0
+  m_Name: OLAF L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &84239283
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400050, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 84239282}
+  m_LocalRotation: {x: .116515532, y: -.512418032, z: -.180193231, w: .831494033}
+  m_LocalPosition: {x: -.148252487, y: 0, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 583902345}
+  m_Father: {fileID: 2121450122}
+  m_RootOrder: 0
+--- !u!1 &178109159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100056, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 178109160}
+  m_Layer: 0
+  m_Name: OLAF R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &178109160
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400056, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 178109159}
+  m_LocalRotation: {x: 5.45583412e-10, y: -7.44515516e-09, z: .135153502, w: .990824699}
+  m_LocalPosition: {x: -.239254996, y: 1.90734859e-08, z: 9.53674295e-09}
+  m_LocalScale: {x: .99999994, y: 1, z: 1.00000012}
+  m_Children:
+  - {fileID: 393734807}
+  m_Father: {fileID: 1239002714}
+  m_RootOrder: 0
+--- !u!1 &188862235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 188862236}
+  - 137: {fileID: 188862237}
+  m_Layer: 0
+  m_Name: Box002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188862236
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 188862235}
+  m_LocalRotation: {x: 8.14603425e-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .00569568621, y: .0171338357, z: -.0890054479}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 1170551225}
+  m_RootOrder: 0
+--- !u!137 &188862237
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13700000, guid: 9d30ae496ca4e2c429e527177fe17f61,
+    type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 188862235}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a597b50f73165ad4199e0db65c079722, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_Bones:
+  - {fileID: 520669496}
+  - {fileID: 968682673}
+  - {fileID: 246572559}
+  - {fileID: 1239002714}
+  - {fileID: 84239283}
+  - {fileID: 1942449543}
+  - {fileID: 2121450122}
+  - {fileID: 872310968}
+  - {fileID: 583902345}
+  - {fileID: 826127932}
+  - {fileID: 1855217322}
+  - {fileID: 605223039}
+  - {fileID: 1482849214}
+  - {fileID: 197680332}
+  - {fileID: 624088666}
+  - {fileID: 1866079745}
+  - {fileID: 518198472}
+  - {fileID: 611021128}
+  - {fileID: 1097237529}
+  - {fileID: 873448114}
+  - {fileID: 983583026}
+  - {fileID: 296273014}
+  - {fileID: 2113363841}
+  - {fileID: 1930155876}
+  - {fileID: 178109160}
+  - {fileID: 393734807}
+  - {fileID: 620035433}
+  - {fileID: 1759615647}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1482849214}
+  m_AABB:
+    m_Center: {x: -.0750078037, y: .0244018137, z: -.0217185467}
+    m_Extent: {x: .241584837, y: .3909747, z: .463634074}
+  m_DirtyAABB: 0
+--- !u!1 &197680331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 197680332}
+  m_Layer: 0
+  m_Name: OLAF L Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &197680332
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 197680331}
+  m_LocalRotation: {x: -.000398159027, y: 3.72528963e-09, z: 1.48325774e-12, w: .99999994}
+  m_LocalPosition: {x: -.0535224527, y: -1.27792355e-05, z: -.0160567462}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 1578027821}
+  m_Father: {fileID: 518198472}
+  m_RootOrder: 1
+--- !u!1 &246572558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 246572559}
+  m_Layer: 0
+  m_Name: OLAF Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &246572559
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 246572558}
+  m_LocalRotation: {x: -7.26559993e-14, y: -1.10427334e-09, z: .000398830569, w: .99999994}
+  m_LocalPosition: {x: -.0768325776, y: 1.90734859e-08, z: -1.19209287e-09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1885936765}
+  m_Father: {fileID: 1942449543}
+  m_RootOrder: 0
+--- !u!1 &294319254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100048, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 294319255}
+  m_Layer: 0
+  m_Name: OLAF L Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &294319255
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400048, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 294319254}
+  m_LocalRotation: {x: -9.55341462e-16, y: -1.75552502e-30, z: 1, w: -1.83758927e-15}
+  m_LocalPosition: {x: -.00642269105, y: 5.96046434e-10, z: 0}
+  m_LocalScale: {x: -.99999994, y: -1, z: -.99999994}
+  m_Children: []
+  m_Father: {fileID: 1097237529}
+  m_RootOrder: 0
+--- !u!1 &296273013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100082, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 296273014}
+  m_Layer: 0
+  m_Name: OLAF R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &296273014
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400082, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 296273013}
+  m_LocalRotation: {x: -4.75056439e-09, y: 1.46066634e-08, z: .0694078729, w: .997588396}
+  m_LocalPosition: {x: -.18824771, y: 0, z: 0}
+  m_LocalScale: {x: .999999881, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1930155876}
+  m_Father: {fileID: 2113363841}
+  m_RootOrder: 0
+--- !u!1001 &339016252
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.13499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.25899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .958403528
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -.285416871
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+  m_RootGameObject: {fileID: 1355035600}
+  m_IsPrefabParent: 0
+--- !u!1 &346423655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100070, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 346423656}
+  m_Layer: 0
+  m_Name: OLAF R Finger2Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &346423656
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400070, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 346423655}
+  m_LocalRotation: {x: -2.77555723e-17, y: 3.72528985e-09, z: 1, w: -7.4505806e-09}
+  m_LocalPosition: {x: -.0187328719, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: -1.00000012, z: -1}
+  m_Children: []
+  m_Father: {fileID: 526856884}
+  m_RootOrder: 0
+--- !u!1 &365140428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100090, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 365140429}
+  m_Layer: 0
+  m_Name: OLAF R Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &365140429
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400090, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 365140428}
+  m_LocalRotation: {x: 1.69702734e-30, y: -9.55341462e-16, z: 1.77635705e-15, w: 1}
+  m_LocalPosition: {x: -.00642269105, y: 0, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 620035433}
+  m_Father: {fileID: 2021255198}
+  m_RootOrder: 0
+--- !u!1 &393734806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100080, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 393734807}
+  m_Layer: 0
+  m_Name: OLAF R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &393734807
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400080, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 393734806}
+  m_LocalRotation: {x: -.00279351464, y: -.0496614911, z: -.0560927913, w: .997185826}
+  m_LocalPosition: {x: -.175962925, y: -3.81469718e-08, z: -9.53674295e-09}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 2021255198}
+  m_Father: {fileID: 178109160}
+  m_RootOrder: 0
+--- !u!1 &395718784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100094, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 395718785}
+  m_Layer: 0
+  m_Name: OLAF R Toe0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &395718785
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400094, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 395718784}
+  m_LocalRotation: {x: 1.69702734e-30, y: -9.55341462e-16, z: 1.77635705e-15, w: 1}
+  m_LocalPosition: {x: -.00642269105, y: 0, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 620035433}
+  m_RootOrder: 0
+--- !u!1 &518198471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100038, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 518198472}
+  m_Layer: 0
+  m_Name: OLAF L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &518198472
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400038, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 518198471}
+  m_LocalRotation: {x: -.706825197, y: 1.0540905e-08, z: 1.05325153e-08, w: .707388282}
+  m_LocalPosition: {x: -.128453866, y: -3.81469718e-08, z: 3.81469718e-08}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 605223039}
+  - {fileID: 197680332}
+  - {fileID: 624088666}
+  - {fileID: 1866079745}
+  - {fileID: 872310968}
+  m_Father: {fileID: 583902345}
+  m_RootOrder: 0
+--- !u!1 &520669495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100040, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 520669496}
+  m_Layer: 0
+  m_Name: OLAF L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &520669496
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400040, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 520669495}
+  m_LocalRotation: {x: -.0411311388, y: .997712612, z: -.00216560811, w: .0536014661}
+  m_LocalPosition: {x: .049240645, y: 9.81903067e-05, z: .0428179763}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1.00000012}
+  m_Children:
+  - {fileID: 968682673}
+  m_Father: {fileID: 1855217322}
+  m_RootOrder: 0
+--- !u!1 &526856883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100068, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 526856884}
+  m_Layer: 0
+  m_Name: OLAF R Finger2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &526856884
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400068, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 526856883}
+  m_LocalRotation: {x: .000398157164, y: -2.96650161e-12, z: -7.45057926e-09, w: .99999994}
+  m_LocalPosition: {x: -.0576930605, y: -6.8664549e-06, z: .00860544201}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 346423656}
+  m_Father: {fileID: 1930155876}
+  m_RootOrder: 2
+--- !u!1 &559369057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 559369058}
+  m_Layer: 0
+  m_Name: OLAF Footsteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &559369058
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 559369057}
+  m_LocalRotation: {x: 0, y: 0, z: -.707106292, w: .707107246}
+  m_LocalPosition: {x: -0, y: 0, z: -.466408998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1482849214}
+  m_RootOrder: 0
+--- !u!1 &583902344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100036, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 583902345}
+  m_Layer: 0
+  m_Name: OLAF L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &583902345
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400036, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 583902344}
+  m_LocalRotation: {x: -2.39967646e-09, y: 1.4824157e-08, z: .281002939, w: .959706962}
+  m_LocalPosition: {x: -.128453866, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1.00000012}
+  m_Children:
+  - {fileID: 518198472}
+  m_Father: {fileID: 84239283}
+  m_RootOrder: 0
+--- !u!1 &605223038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 605223039}
+  m_Layer: 0
+  m_Name: OLAF L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &605223039
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 605223038}
+  m_LocalRotation: {x: .448541909, y: -.13317734, z: -.0677904561, w: .881180108}
+  m_LocalPosition: {x: -.0374657251, y: -2.13241565e-05, z: -.026761245}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 814899466}
+  m_Father: {fileID: 518198472}
+  m_RootOrder: 0
+--- !u!1 &611021127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100034, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 611021128}
+  m_Layer: 0
+  m_Name: OLAF L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &611021128
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400034, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 611021127}
+  m_LocalRotation: {x: -.00214492623, y: .0536022969, z: .0399260223, w: .997761548}
+  m_LocalPosition: {x: -.161624849, y: -1.90734859e-08, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 1498778318}
+  m_Father: {fileID: 968682673}
+  m_RootOrder: 0
+--- !u!1 &620035432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100092, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 620035433}
+  m_Layer: 0
+  m_Name: OLAF R Toe02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &620035433
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400092, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 620035432}
+  m_LocalRotation: {x: 1.69702734e-30, y: -9.55341462e-16, z: 1.77635705e-15, w: 1}
+  m_LocalPosition: {x: -.00642269105, y: 1.19209287e-09, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 395718785}
+  m_Father: {fileID: 365140429}
+  m_RootOrder: 0
+--- !u!1 &624088665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 624088666}
+  m_Layer: 0
+  m_Name: OLAF L Finger2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &624088666
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 624088665}
+  m_LocalRotation: {x: -.000398159027, y: 3.72528963e-09, z: 1.48325774e-12, w: .99999994}
+  m_LocalPosition: {x: -.05352249, y: -4.23431402e-06, z: -.005352268}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 1389259042}
+  m_Father: {fileID: 518198472}
+  m_RootOrder: 2
+--- !u!1 &814899465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 814899466}
+  m_Layer: 0
+  m_Name: OLAF L Finger0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &814899466
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 814899465}
+  m_LocalRotation: {x: -2.09547579e-09, y: 1.86264515e-09, z: -1.49011612e-08, w: 1}
+  m_LocalPosition: {x: -.0133805843, y: 1.90734859e-08, z: -3.81469718e-08}
+  m_LocalScale: {x: 1, y: .99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 605223039}
+  m_RootOrder: 0
+--- !u!1 &826127931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100102, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 826127932}
+  m_Layer: 0
+  m_Name: OLAF Spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &826127932
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400102, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 826127931}
+  m_LocalRotation: {x: -3.01176727e-14, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0742176771, y: -5.90896598e-05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1942449543}
+  m_Father: {fileID: 1475030030}
+  m_RootOrder: 0
+--- !u!1 &849985203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100028, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 849985204}
+  m_Layer: 0
+  m_Name: OLAF L Finger3Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &849985204
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400028, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 849985203}
+  m_LocalRotation: {x: 1.86264493e-09, y: 3.72528985e-09, z: -6.93889225e-18, w: 1}
+  m_LocalPosition: {x: -.0160567276, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 1866079745}
+  m_RootOrder: 0
+--- !u!1 &872310967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100030, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 872310968}
+  m_Layer: 0
+  m_Name: OLAF L Finger4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &872310968
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400030, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 872310967}
+  m_LocalRotation: {x: -.000398159027, y: 3.72528963e-09, z: 1.48325774e-12, w: .99999994}
+  m_LocalPosition: {x: -.0535224527, y: 1.27792355e-05, z: .016056709}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 1755676763}
+  m_Father: {fileID: 518198472}
+  m_RootOrder: 4
+--- !u!1 &873448113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100060, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 873448114}
+  m_Layer: 0
+  m_Name: OLAF R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &873448114
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400060, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 873448113}
+  m_LocalRotation: {x: -.733036101, y: .426032305, z: -.0326797441, w: .529232025}
+  m_LocalPosition: {x: -.0403851308, y: -3.42559797e-05, z: .0430272184}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1.00000012}
+  m_Children:
+  - {fileID: 947015733}
+  m_Father: {fileID: 1930155876}
+  m_RootOrder: 0
+--- !u!1 &914586640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100064, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 914586641}
+  m_Layer: 0
+  m_Name: OLAF R Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &914586641
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400064, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 914586640}
+  m_LocalRotation: {x: .000365409738, y: .397195727, z: .000158129187, w: .917733848}
+  m_LocalPosition: {x: -.0576930977, y: -2.05612178e-05, z: .0258163214}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 1721782792}
+  m_Father: {fileID: 1930155876}
+  m_RootOrder: 1
+--- !u!1 &916443424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 916443429}
+  - 20: {fileID: 916443428}
+  - 92: {fileID: 916443427}
+  - 124: {fileID: 916443426}
+  - 81: {fileID: 916443425}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &916443425
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916443424}
+  m_Enabled: 1
+--- !u!124 &916443426
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916443424}
+  m_Enabled: 1
+--- !u!92 &916443427
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916443424}
+  m_Enabled: 1
+--- !u!20 &916443428
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916443424}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 100
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &916443429
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916443424}
+  m_LocalRotation: {x: .0307916719, y: .0604733266, z: -.00186638022, w: .997693062}
+  m_LocalPosition: {x: -.210999995, y: .657000005, z: -5.421}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!1 &919674424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 919674425}
+  - 33: {fileID: 919674427}
+  - 23: {fileID: 919674426}
+  m_Layer: 0
+  m_Name: Box004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &919674425
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  m_GameObject: {fileID: 919674424}
+  m_LocalRotation: {x: 8.14603425e-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.959281921, y: .121297717, z: .286879867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1355035601}
+  m_RootOrder: 0
+--- !u!23 &919674426
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 9de88e55c59a20d47a68ec91db486a97,
+    type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  m_GameObject: {fileID: 919674424}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 20fa2e0e948c896488510c35ef92207c, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &919674427
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 9de88e55c59a20d47a68ec91db486a97,
+    type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  m_GameObject: {fileID: 919674424}
+  m_Mesh: {fileID: 4300002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+--- !u!1 &947015732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100062, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 947015733}
+  m_Layer: 0
+  m_Name: OLAF R Finger0Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &947015733
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400062, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 947015732}
+  m_LocalRotation: {x: 0, y: -0, z: 1, w: 1.49011612e-08}
+  m_LocalPosition: {x: -.0579538345, y: 1.90734859e-08, z: 9.53674295e-09}
+  m_LocalScale: {x: -1, y: -1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 873448114}
+  m_RootOrder: 0
+--- !u!1 &968682672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 968682673}
+  m_Layer: 0
+  m_Name: OLAF L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &968682673
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 968682672}
+  m_LocalRotation: {x: 3.01669952e-12, y: -3.72528941e-09, z: .000809789053, w: .999999702}
+  m_LocalPosition: {x: -.259338289, y: 1.90734859e-08, z: -9.53674295e-09}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 611021128}
+  m_Father: {fileID: 520669496}
+  m_RootOrder: 0
+--- !u!1 &983583025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100058, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 983583026}
+  m_Layer: 0
+  m_Name: OLAF R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &983583026
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400058, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 983583025}
+  m_LocalRotation: {x: .707106769, y: .000281540968, z: .707106769, w: -.000281540968}
+  m_LocalPosition: {x: .0317530036, y: 8.65173351e-05, z: -.0149862897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2113363841}
+  m_Father: {fileID: 1942449543}
+  m_RootOrder: 2
+--- !u!1 &985683288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100078, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 985683289}
+  m_Layer: 0
+  m_Name: OLAF R Finger4Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &985683289
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400078, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 985683288}
+  m_LocalRotation: {x: -3.72528985e-09, y: -3.72528985e-09, z: 1, w: 4.73545548e-17}
+  m_LocalPosition: {x: -.0465110391, y: 0, z: -1.90734859e-08}
+  m_LocalScale: {x: -1.00000012, y: -1.00000012, z: -1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1759615647}
+  m_RootOrder: 0
+--- !u!1 &987489574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 987489575}
+  m_Layer: 0
+  m_Name: Battleground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &987489575
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987489574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.32617283, y: -1.83495998, z: .820297241}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1400545048}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!1 &1097237528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100046, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1097237529}
+  m_Layer: 0
+  m_Name: OLAF L Toe02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097237529
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400046, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1097237528}
+  m_LocalRotation: {x: 1.69702734e-30, y: -9.55341462e-16, z: 1.77635705e-15, w: 1}
+  m_LocalPosition: {x: -.00642269105, y: -5.96046434e-10, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 294319255}
+  m_Father: {fileID: 1460286681}
+  m_RootOrder: 0
+--- !u!1 &1170551224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1170551225}
+  - 95: {fileID: 1170551226}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1170551225
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1170551224}
+  m_LocalRotation: {x: 0, y: .16390954, z: 0, w: .986475408}
+  m_LocalPosition: {x: -.540000021, y: 0, z: -4.46000004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 188862236}
+  - {fileID: 1482849214}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!95 &1170551226
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 9d30ae496ca4e2c429e527177fe17f61,
+    type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1170551224}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1239002713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100086, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1239002714}
+  m_Layer: 0
+  m_Name: OLAF R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1239002714
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400086, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1239002713}
+  m_LocalRotation: {x: -.0795914829, y: .995585859, z: .00392568158, w: -.0495848507}
+  m_LocalPosition: {x: .049240645, y: 9.84191865e-05, z: -.0428179726}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children:
+  - {fileID: 178109160}
+  m_Father: {fileID: 1855217322}
+  m_RootOrder: 1
+--- !u!1 &1355035600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1355035601}
+  m_Layer: 0
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1355035601
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  m_GameObject: {fileID: 1355035600}
+  m_LocalRotation: {x: 0, y: .958403528, z: 0, w: -.285416871}
+  m_LocalPosition: {x: 1.13499999, y: 0, z: -1.25899994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 919674425}
+  - {fileID: 1719443032}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1 &1389259041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1389259042}
+  m_Layer: 0
+  m_Name: OLAF L Finger2Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1389259042
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400024, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1389259041}
+  m_LocalRotation: {x: 1.86264493e-09, y: 3.72528985e-09, z: -6.93889225e-18, w: 1}
+  m_LocalPosition: {x: -.0187328719, y: 7.62939436e-08, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 624088666}
+  m_RootOrder: 0
+--- !u!1 &1400545044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1400545048}
+  - 33: {fileID: 1400545047}
+  - 64: {fileID: 1400545046}
+  - 23: {fileID: 1400545045}
+  m_Layer: 0
+  m_Name: Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1400545045
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400545044}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1400545046
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400545044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1400545047
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400545044}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1400545048
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400545044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.49617279, y: 1.83495998, z: -3.6102972}
+  m_LocalScale: {x: .603471637, y: 1, z: .502850771}
+  m_Children: []
+  m_Father: {fileID: 987489575}
+  m_RootOrder: 0
+--- !u!1 &1460286680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100044, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1460286681}
+  m_Layer: 0
+  m_Name: OLAF L Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1460286681
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400044, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1460286680}
+  m_LocalRotation: {x: 1.69702734e-30, y: -9.55341462e-16, z: 1.77635705e-15, w: 1}
+  m_LocalPosition: {x: -.00642269105, y: 5.96046434e-10, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 1097237529}
+  m_Father: {fileID: 1498778318}
+  m_RootOrder: 0
+--- !u!1 &1475030029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100100, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1475030030}
+  m_Layer: 0
+  m_Name: OLAF Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1475030030
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400100, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1475030029}
+  m_LocalRotation: {x: -3.01176727e-14, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0742177218, y: -5.90896598e-05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 826127932}
+  m_Father: {fileID: 1855217322}
+  m_RootOrder: 2
+--- !u!1 &1482849213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1482849214}
+  m_Layer: 0
+  m_Name: OLAF
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1482849214
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1482849213}
+  m_LocalRotation: {x: -.500000358, y: .499999642, z: .499999642, w: .500000358}
+  m_LocalPosition: {x: .0130134961, y: .475281328, z: -.198039278}
+  m_LocalScale: {x: .99999994, y: .99999994, z: 1}
+  m_Children:
+  - {fileID: 559369058}
+  - {fileID: 1487629690}
+  m_Father: {fileID: 1170551225}
+  m_RootOrder: 1
+--- !u!1 &1487629689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100054, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1487629690}
+  m_Layer: 0
+  m_Name: OLAF Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487629690
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400054, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1487629689}
+  m_LocalRotation: {x: -.499999642, y: .500000358, z: .499999642, w: .500000358}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: .99999994, z: .99999994}
+  m_Children:
+  - {fileID: 1855217322}
+  m_Father: {fileID: 1482849214}
+  m_RootOrder: 1
+--- !u!1 &1498778317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100042, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1498778318}
+  m_Layer: 0
+  m_Name: OLAF L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498778318
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400042, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1498778317}
+  m_LocalRotation: {x: -1.54543098e-08, y: 1.54543098e-08, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: -.049240645, y: .063370578, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 1460286681}
+  m_Father: {fileID: 611021128}
+  m_RootOrder: 0
+--- !u!1001 &1501211150
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.540000021
+      objectReference: {fileID: 0}
+    - target: {fileID: 400104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.46000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .16390954
+      objectReference: {fileID: 0}
+    - target: {fileID: 400104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .986475408
+      objectReference: {fileID: 0}
+    - target: {fileID: 400104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100104, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_RootGameObject: {fileID: 1170551224}
+  m_IsPrefabParent: 0
+--- !u!1 &1575933344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100072, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1575933345}
+  m_Layer: 0
+  m_Name: OLAF R Finger3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1575933345
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400072, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1575933344}
+  m_LocalRotation: {x: .000398157164, y: -2.96650161e-12, z: -7.45057926e-09, w: .99999994}
+  m_LocalPosition: {x: -.0576930605, y: 6.8664549e-06, z: -.00860544201}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 2075824847}
+  m_Father: {fileID: 1930155876}
+  m_RootOrder: 3
+--- !u!1 &1578027820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1578027821}
+  m_Layer: 0
+  m_Name: OLAF L Finger1Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1578027821
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1578027820}
+  m_LocalRotation: {x: 1.86264493e-09, y: 3.72528985e-09, z: -6.93889225e-18, w: 1}
+  m_LocalPosition: {x: -.0160567462, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 197680332}
+  m_RootOrder: 0
+--- !u!1 &1719443031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1719443032}
+  - 33: {fileID: 1719443034}
+  - 23: {fileID: 1719443033}
+  m_Layer: 0
+  m_Name: Plane001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1719443032
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  m_GameObject: {fileID: 1719443031}
+  m_LocalRotation: {x: 8.14603425e-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.962613404, y: .293506235, z: 1.2829565e-08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1355035601}
+  m_RootOrder: 1
+--- !u!23 &1719443033
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 9de88e55c59a20d47a68ec91db486a97,
+    type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  m_GameObject: {fileID: 1719443031}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 85f75cec3c8e7c646985210d573ad31f, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1719443034
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 9de88e55c59a20d47a68ec91db486a97,
+    type: 3}
+  m_PrefabInternal: {fileID: 339016252}
+  m_GameObject: {fileID: 1719443031}
+  m_Mesh: {fileID: 4300000, guid: 9de88e55c59a20d47a68ec91db486a97, type: 3}
+--- !u!1 &1721782791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100066, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1721782792}
+  m_Layer: 0
+  m_Name: OLAF R Finger1Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1721782792
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400066, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1721782791}
+  m_LocalRotation: {x: -2.98023188e-08, y: -7.45057971e-09, z: 1, w: 7.45057971e-09}
+  m_LocalPosition: {x: -.0341800861, y: 0, z: 1.90734859e-08}
+  m_LocalScale: {x: -1.00000012, y: -1.00000012, z: -1.00000012}
+  m_Children: []
+  m_Father: {fileID: 914586641}
+  m_RootOrder: 0
+--- !u!1 &1755676762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100032, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1755676763}
+  m_Layer: 0
+  m_Name: OLAF L Finger4Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1755676763
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1755676762}
+  m_LocalRotation: {x: 1.86264493e-09, y: 3.72528985e-09, z: -6.93889225e-18, w: 1}
+  m_LocalPosition: {x: -.013380642, y: 0, z: 0}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 872310968}
+  m_RootOrder: 0
+--- !u!1 &1759615646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100076, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1759615647}
+  m_Layer: 0
+  m_Name: OLAF R Finger4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1759615647
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400076, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1759615646}
+  m_LocalRotation: {x: .000394740578, y: -.130690575, z: -5.20480717e-05, w: .99142313}
+  m_LocalPosition: {x: -.0576930791, y: 2.05612178e-05, z: -.0258163251}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
+  m_Children:
+  - {fileID: 985683289}
+  m_Father: {fileID: 1930155876}
+  m_RootOrder: 4
+--- !u!1 &1855217321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100098, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1855217322}
+  m_Layer: 0
+  m_Name: OLAF Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1855217322
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400098, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1855217321}
+  m_LocalRotation: {x: -2.08047595e-06, y: 6.93675986e-07, z: -.000398158998, w: .99999994}
+  m_LocalPosition: {x: -.0492406823, y: -5.90705858e-05, z: 6.79492942e-08}
+  m_LocalScale: {x: 1, y: .99999994, z: .99999994}
+  m_Children:
+  - {fileID: 520669496}
+  - {fileID: 1239002714}
+  - {fileID: 1475030030}
+  m_Father: {fileID: 1487629690}
+  m_RootOrder: 0
+--- !u!1 &1866079744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100026, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1866079745}
+  m_Layer: 0
+  m_Name: OLAF L Finger3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1866079745
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400026, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1866079744}
+  m_LocalRotation: {x: -.000398159027, y: 3.72528963e-09, z: 1.48325774e-12, w: .99999994}
+  m_LocalPosition: {x: -.0535224713, y: 4.23431402e-06, z: .00535222981}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children:
+  - {fileID: 849985204}
+  m_Father: {fileID: 518198472}
+  m_RootOrder: 3
+--- !u!1 &1885936764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1885936765}
+  m_Layer: 0
+  m_Name: OLAF HeadNub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1885936765
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1885936764}
+  m_LocalRotation: {x: -4.11746566e-20, y: -3.38813179e-21, z: -1.39504867e-40, w: 1}
+  m_LocalPosition: {x: -.0561085492, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: .99999994, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 246572559}
+  m_RootOrder: 0
+--- !u!1 &1930155875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100084, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1930155876}
+  m_Layer: 0
+  m_Name: OLAF R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1930155876
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400084, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1930155875}
+  m_LocalRotation: {x: .752373815, y: -5.60562174e-09, z: -4.90796825e-09, w: .658736348}
+  m_LocalPosition: {x: -.128453866, y: 1.90734859e-08, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 873448114}
+  - {fileID: 914586641}
+  - {fileID: 526856884}
+  - {fileID: 1575933345}
+  - {fileID: 1759615647}
+  m_Father: {fileID: 296273014}
+  m_RootOrder: 0
+--- !u!1 &1942449542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100052, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1942449543}
+  m_Layer: 0
+  m_Name: OLAF Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1942449543
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400052, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 1942449542}
+  m_LocalRotation: {x: -3.01176727e-14, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -.0742177591, y: -6.12068179e-05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 246572559}
+  - {fileID: 2121450122}
+  - {fileID: 983583026}
+  m_Father: {fileID: 826127932}
+  m_RootOrder: 0
+--- !u!1 &2021255197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100088, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2021255198}
+  m_Layer: 0
+  m_Name: OLAF R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2021255198
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400088, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 2021255197}
+  m_LocalRotation: {x: -1.54543098e-08, y: 1.54543098e-08, z: -.707106829, w: .707106829}
+  m_LocalPosition: {x: -.049240645, y: .0633705705, z: 0}
+  m_LocalScale: {x: .99999994, y: 1, z: .99999994}
+  m_Children:
+  - {fileID: 365140429}
+  m_Father: {fileID: 393734807}
+  m_RootOrder: 0
+--- !u!1 &2075824846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100074, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2075824847}
+  m_Layer: 0
+  m_Name: OLAF R Finger3Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2075824847
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400074, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 2075824846}
+  m_LocalRotation: {x: -2.77555723e-17, y: 3.72528985e-09, z: 1, w: -7.4505806e-09}
+  m_LocalPosition: {x: -.0442317948, y: 0, z: 9.53674295e-09}
+  m_LocalScale: {x: -1, y: -1.00000012, z: -1}
+  m_Children: []
+  m_Father: {fileID: 1575933345}
+  m_RootOrder: 0
+--- !u!1 &2113363840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100096, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2113363841}
+  m_Layer: 0
+  m_Name: OLAF R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2113363841
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400096, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 2113363840}
+  m_LocalRotation: {x: -.0154806366, y: .607425749, z: .0101322522, w: .794160962}
+  m_LocalPosition: {x: -.164863929, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: .99999994, z: .99999994}
+  m_Children:
+  - {fileID: 296273014}
+  m_Father: {fileID: 983583026}
+  m_RootOrder: 0
+--- !u!1 &2121450121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2121450122}
+  m_Layer: 0
+  m_Name: OLAF L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2121450122
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 9d30ae496ca4e2c429e527177fe17f61, type: 3}
+  m_PrefabInternal: {fileID: 1501211150}
+  m_GameObject: {fileID: 2121450121}
+  m_LocalRotation: {x: .707106769, y: .000281540968, z: -.707106769, w: .000281540968}
+  m_LocalPosition: {x: .0335164629, y: 8.78524734e-05, z: .0149862869}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 84239283}
+  m_Father: {fileID: 1942449543}
+  m_RootOrder: 1
