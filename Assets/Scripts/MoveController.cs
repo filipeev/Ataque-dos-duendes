@@ -5,7 +5,9 @@ public class MoveController : MonoBehaviour {
 
 	private NavMeshAgent agent;
     public Animator anim;
-	
+
+    public int persuers;
+    public int[] EnemyType; 
 	private Vector3 posicaoRaio ;
 	private Vector3 direcaoRaio ;
 	private Vector3 posicaoDoMouse ;
@@ -58,4 +60,6 @@ public class MoveController : MonoBehaviour {
             PlayerStop();
         }
     }
+
+
 }

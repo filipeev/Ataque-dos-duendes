@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 9d30ae496ca4e2c429e527177fe17f61
+timeCreated: 1431732303
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box002
+    100002: OLAF
+    100004: OLAF Footsteps
+    100006: OLAF Head
+    100008: OLAF HeadNub
+    100010: OLAF L Calf
+    100012: OLAF L Clavicle
+    100014: OLAF L Finger0
+    100016: OLAF L Finger0Nub
+    100018: OLAF L Finger1
+    100020: OLAF L Finger1Nub
+    100022: OLAF L Finger2
+    100024: OLAF L Finger2Nub
+    100026: OLAF L Finger3
+    100028: OLAF L Finger3Nub
+    100030: OLAF L Finger4
+    100032: OLAF L Finger4Nub
+    100034: OLAF L Foot
+    100036: OLAF L Forearm
+    100038: OLAF L Hand
+    100040: OLAF L Thigh
+    100042: OLAF L Toe0
+    100044: OLAF L Toe01
+    100046: OLAF L Toe02
+    100048: OLAF L Toe0Nub
+    100050: OLAF L UpperArm
+    100052: OLAF Neck
+    100054: OLAF Pelvis
+    100056: OLAF R Calf
+    100058: OLAF R Clavicle
+    100060: OLAF R Finger0
+    100062: OLAF R Finger0Nub
+    100064: OLAF R Finger1
+    100066: OLAF R Finger1Nub
+    100068: OLAF R Finger2
+    100070: OLAF R Finger2Nub
+    100072: OLAF R Finger3
+    100074: OLAF R Finger3Nub
+    100076: OLAF R Finger4
+    100078: OLAF R Finger4Nub
+    100080: OLAF R Foot
+    100082: OLAF R Forearm
+    100084: OLAF R Hand
+    100086: OLAF R Thigh
+    100088: OLAF R Toe0
+    100090: OLAF R Toe01
+    100092: OLAF R Toe02
+    100094: OLAF R Toe0Nub
+    100096: OLAF R UpperArm
+    100098: OLAF Spine
+    100100: OLAF Spine1
+    100102: OLAF Spine2
+    100104: //RootNode
+    400000: Box002
+    400002: OLAF
+    400004: OLAF Footsteps
+    400006: OLAF Head
+    400008: OLAF HeadNub
+    400010: OLAF L Calf
+    400012: OLAF L Clavicle
+    400014: OLAF L Finger0
+    400016: OLAF L Finger0Nub
+    400018: OLAF L Finger1
+    400020: OLAF L Finger1Nub
+    400022: OLAF L Finger2
+    400024: OLAF L Finger2Nub
+    400026: OLAF L Finger3
+    400028: OLAF L Finger3Nub
+    400030: OLAF L Finger4
+    400032: OLAF L Finger4Nub
+    400034: OLAF L Foot
+    400036: OLAF L Forearm
+    400038: OLAF L Hand
+    400040: OLAF L Thigh
+    400042: OLAF L Toe0
+    400044: OLAF L Toe01
+    400046: OLAF L Toe02
+    400048: OLAF L Toe0Nub
+    400050: OLAF L UpperArm
+    400052: OLAF Neck
+    400054: OLAF Pelvis
+    400056: OLAF R Calf
+    400058: OLAF R Clavicle
+    400060: OLAF R Finger0
+    400062: OLAF R Finger0Nub
+    400064: OLAF R Finger1
+    400066: OLAF R Finger1Nub
+    400068: OLAF R Finger2
+    400070: OLAF R Finger2Nub
+    400072: OLAF R Finger3
+    400074: OLAF R Finger3Nub
+    400076: OLAF R Finger4
+    400078: OLAF R Finger4Nub
+    400080: OLAF R Foot
+    400082: OLAF R Forearm
+    400084: OLAF R Hand
+    400086: OLAF R Thigh
+    400088: OLAF R Toe0
+    400090: OLAF R Toe01
+    400092: OLAF R Toe02
+    400094: OLAF R Toe0Nub
+    400096: OLAF R UpperArm
+    400098: OLAF Spine
+    400100: OLAF Spine1
+    400102: OLAF Spine2
+    400104: //RootNode
+    4300000: Box002
+    9500000: //RootNode
+    13700000: Box002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
