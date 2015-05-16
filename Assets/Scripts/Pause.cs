@@ -21,20 +21,12 @@ public class Pause : MonoBehaviour {
 		{
 			pauseGame = !pauseGame;
 			
-			if(pauseGame == true)
-			{
-				Time.timeScale = 0;
-				pauseGame = true;
-                GameObject.Find("Player").GetComponent<MoveController>().enabled = false;
-				showGUI = true;
+			if(pauseGame == true){
+				paused();
 			}
 			
-			if(pauseGame == false)
-			{
-				Time.timeScale = 1;
-				pauseGame = false;
-                GameObject.Find("Player").GetComponent<MoveController>().enabled = true;
-				showGUI = false;
+			if(pauseGame == false){
+				unPaused();
 			}
 		}
 		
@@ -49,10 +41,36 @@ public class Pause : MonoBehaviour {
 		if(showGUI == true)
 		{
 			telaPause.GetComponent<RawImage>().enabled = true;
+			GameObject.Find("bt_continue").transform.position = new Vector2(718.5f, 201.9f);
+			GameObject.Find("bt_menu_inicial").transform.position = new Vector2(718.5f, 137.5f);
 		}
 		else
 		{
 			telaPause.GetComponent<RawImage>().enabled = false;
+			GameObject.Find("bt_continue").transform.position = new Vector2(0f, -1000f);
+			GameObject.Find("bt_menu_inicial").transform.position = new Vector2(0f, -1000f);
 		}
+	}
+
+	void paused(){
+		Time.timeScale = 0;
+		pauseGame = true;
+		GameObject.Find("Player").GetComponent<MoveController>().enabled = false;
+		showGUI = true;
+	}
+
+	void unPaused(){
+		Time.timeScale = 1;
+		pauseGame = false;
+		GameObject.Find("Player").GetComponent<MoveController>().enabled = true;
+		showGUI = false;
+	}
+
+	public void continuar(){
+		unPaused ();
+	}
+
+	public void irParaMenu(){
+		Application.LoadLevel ("Menu inicial");
 	}
 }
